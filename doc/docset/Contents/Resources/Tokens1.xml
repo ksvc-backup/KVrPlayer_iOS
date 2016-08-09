@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KSYVRPlayerController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KSYVRPlayerController</TokenIdentifier>
+			<Abstract type="html">KSYVRPlayerController
+继承自金山云播放SDK中的KSYMoviePlayerController类，在支持原有功能的基础上实现了VR播放功能,
+所以需要依赖金山云播放SDK</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/setIMode:</TokenIdentifier>
+			<Abstract type="html">当前使用的交互模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeInteractive</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) KSYVRModeInteractive iMode</Declaration>
+			
+			
+			<Anchor>//api/name/iMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/iMode</TokenIdentifier>
+			<Abstract type="html">当前使用的交互模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeInteractive</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) KSYVRModeInteractive iMode</Declaration>
+			
+			
+			<Anchor>//api/name/iMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KSYVRPlayerController/iMode</TokenIdentifier>
+			<Abstract type="html">当前使用的交互模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeInteractive</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) KSYVRModeInteractive iMode</Declaration>
+			
+			
+			<Anchor>//api/name/iMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/setDMode:</TokenIdentifier>
+			<Abstract type="html">当前使用的显示模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeDisplay</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) KSYVRModeDisplay dMode</Declaration>
+			
+			
+			<Anchor>//api/name/dMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/dMode</TokenIdentifier>
+			<Abstract type="html">当前使用的显示模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeDisplay</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) KSYVRModeDisplay dMode</Declaration>
+			
+			
+			<Anchor>//api/name/dMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KSYVRPlayerController/dMode</TokenIdentifier>
+			<Abstract type="html">当前使用的显示模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeDisplay</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) KSYVRModeDisplay dMode</Declaration>
+			
+			
+			<Anchor>//api/name/dMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/initWithContentURL:</TokenIdentifier>
+			<Abstract type="html">初始化播放器并设置播放地址</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithContentURL:(NSURL *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">视频播放地址，该地址可以是本地地址或者服务器地址.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">返回KSYVRPlayerController对象，该对象的视频播放地址ContentURL已经初始化。此时播放器状态为MPMoviePlaybackStateStopped.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithContentURL:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/getVRVersion</TokenIdentifier>
+			<Abstract type="html">获取版本号</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)getVRVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString类型的版本号字符串</Abstract></ReturnValue>
+			<Anchor>//api/name/getVRVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/initVRMode:dispalyMode:</TokenIdentifier>
+			<Abstract type="html">初始化VR播放的交互模式和显示模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeInteractive</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeDisplay</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)initVRMode:(KSYVRModeInteractive)iMode dispalyMode:(KSYVRModeDisplay)dMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>iMode</Name>
+					<Abstract type="html">交互模式</Abstract>
+				</Parameter><Parameter>
+					<Name>dMode</Name>
+					<Abstract type="html">显示模式</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">无返回值</Abstract></ReturnValue>
+			<Anchor>//api/name/initVRMode:dispalyMode:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/setContainer:view:</TokenIdentifier>
+			<Abstract type="html">设置播放器的容器</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)setContainer:(UIViewController *)vc view:(UIView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>vc</Name>
+					<Abstract type="html">播放器所在的ViewController</Abstract>
+				</Parameter><Parameter>
+					<Name>view</Name>
+					<Abstract type="html">播放器所在的View</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">无返回值</Abstract></ReturnValue>
+			<Anchor>//api/name/setContainer:view:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/setInteractiveMode:</TokenIdentifier>
+			<Abstract type="html">设置VR播放的交互模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)setInteractiveMode:(KSYVRModeInteractive)iMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>iMode</Name>
+					<Abstract type="html">交互模式</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">无返回值</Abstract></ReturnValue>
+			<Anchor>//api/name/setInteractiveMode:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/setDisplayMode:</TokenIdentifier>
+			<Abstract type="html">设置VR播放的显示模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)setDisplayMode:(KSYVRModeDisplay)dMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dMode</Name>
+					<Abstract type="html">显示模式</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">无返回值</Abstract></ReturnValue>
+			<Anchor>//api/name/setDisplayMode:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KSYVRPlayerController/stop</TokenIdentifier>
+			<Abstract type="html">结束当前视频的播放。</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

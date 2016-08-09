@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/KSYVRModeDisplay.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeDisplay</TokenIdentifier>
+			<Abstract type="html">显示模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/KSYVRModeDisplayNormal</TokenIdentifier>
+            <Abstract type="html">单目模式</Abstract>
+            <Declaration>KSYVRModeDisplayNormal</Declaration>
+            
+            <DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+            
+            <NodeRef refid="2"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/KSYVRModeDisplayGlass</TokenIdentifier>
+            <Abstract type="html">双目左右模式</Abstract>
+            <Declaration>KSYVRModeDisplayGlass</Declaration>
+            
+            <DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+            
+            <NodeRef refid="2"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

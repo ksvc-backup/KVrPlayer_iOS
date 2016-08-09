@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/KSYVRModeInteractive.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/KSYVRModeInteractive</TokenIdentifier>
+			<Abstract type="html">调整视角使用的交互模式</Abstract>
+			<DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/KSYVRModeInteractiveTouch</TokenIdentifier>
+            <Abstract type="html">使用触摸的方式调整视角</Abstract>
+            <Declaration>KSYVRModeInteractiveTouch</Declaration>
+            
+            <DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+            
+            <NodeRef refid="3"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/KSYVRModeInteractiveMotion</TokenIdentifier>
+            <Abstract type="html">运动识别方式调整视角</Abstract>
+            <Declaration>KSYVRModeInteractiveMotion</Declaration>
+            
+            <DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+            
+            <NodeRef refid="3"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/KSYVRModeInteractiveMotionWithTouch</TokenIdentifier>
+            <Abstract type="html">触摸和运动方式一起生效</Abstract>
+            <Declaration>KSYVRModeInteractiveMotionWithTouch</Declaration>
+            
+            <DeclaredIn>KSYVRPlayerController.h</DeclaredIn>
+            
+            <NodeRef refid="3"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

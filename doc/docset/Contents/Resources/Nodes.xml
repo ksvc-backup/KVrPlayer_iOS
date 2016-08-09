@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>KSYVRPlayer</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+                
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>KSYVRPlayerController</Name>
+            <Path>Classes/KSYVRPlayerController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/KSYVRPlayerController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/KSYVRPlayerController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/KSYVRPlayerController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/KSYVRPlayerController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+		
+        
+        <Node id="2" type="file" documentType="reference">
+            <Name>KSYVRModeDisplay</Name>
+            <Path>Constants/KSYVRModeDisplay.html</Path>
+            
+        </Node>
+		<Node id="3" type="file" documentType="reference">
+            <Name>KSYVRModeInteractive</Name>
+            <Path>Constants/KSYVRModeInteractive.html</Path>
+            
+        </Node>
+		
+        
+	</Library>
+</DocSetNodes>

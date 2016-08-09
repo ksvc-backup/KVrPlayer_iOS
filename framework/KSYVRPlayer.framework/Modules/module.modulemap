@@ -1,0 +1,6 @@
+framework module KSYVRPlayer {
+  umbrella header "KSYVRPlayer.h"
+
+  export *
+  module * { export * }
+}

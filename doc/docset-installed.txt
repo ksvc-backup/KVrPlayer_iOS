@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/mayudong/Library/Developer/Shared/Documentation/DocSets/com.ksyun.KSYVRPlayer.docset
+Time: 2016-08-09 03:29:58 +0000
