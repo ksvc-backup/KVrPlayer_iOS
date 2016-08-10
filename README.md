@@ -43,7 +43,7 @@ KSY VRPlayer iOS SDK可运行于 iPhone/iPod Touch/iPad，支持 iOS 7.0 及以�
    
 执行pod install或者pod update后，将SDK加入工程。  
 
-### 4.2 通过oschina下载播放SDK
+### 4.3 通过oschina下载播放SDK
 对于部分地方访问github比较慢的情况，可以从oschina获取播放SDK。只需要将pod中的git地址修以下即可  
 <pre>
    pod 'KSYVRPlayer_iOS', :git => 'https://git.oschina.net/ksvc/KSYMediaPlayer_iOS.git'
