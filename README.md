@@ -31,14 +31,23 @@ KSY VRPlayer iOS SDK可运行于 iPhone/iPod Touch/iPad，支持 iOS 7.0 及以�
 * framework/ 目录存放了KSYVRPlayer.framework，该库支持armv7/arm64/x86_64和i386四种体系结构。 
 * README.md 即本文档。
 
+[金山云播放SDK](https://github.com/ksvc/KSYMediaPlayer_iOS)未包含在本SDK中，需要单独下载
+
 ### 4.2 Cocoapods安装  
 通过Cocoapods能将SDK的静态库framework下载到本地，只需要将如下语句加入你的Podfile(播放SDK和VRSDK):
 
-   <pre>
-   pod 'KSYVRPlayer_iOS', :git => 'https://github.com/ksvc/KSYMediaPlayer_iOS.git'</pre>
-   pod 'KSYVRPlayer_iOS', :git => 'https://github.com/ksvc/KVrPlayer_iOS.git'</pre>
+<pre>
+   pod 'KSYVRPlayer_iOS', :git => 'https://github.com/ksvc/KSYMediaPlayer_iOS.git'
+   pod 'KSYVRPlayer_iOS', :git => 'https://github.com/ksvc/KVrPlayer_iOS.git'
+</pre>
    
 执行pod install或者pod update后，将SDK加入工程。  
+
+### 4.2 通过oschina下载播放SDK
+对于部分地方访问github比较慢的情况，可以从oschina获取播放SDK。只需要将pod中的git地址修以下即可  
+<pre>
+   pod 'KSYVRPlayer_iOS', :git => 'https://git.oschina.net/ksvc/KSYMediaPlayer_iOS.git'
+</pre>
 
 ## 5. 快速集成
 [快速集成](https://github.com/ksvc/KVrPlayer_iOS/wikis/快速集成)中提供了集成金山云播放SDK的基本方法。
