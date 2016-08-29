@@ -58,5 +58,7 @@ KSY VRPlayer iOS SDK可运行于 iPhone/iPod Touch/iPad，支持 iOS 7.0 及以�
 主要接口说明请参考：[金山云VR播放SDK接口](https://github.com/ksvc/KVrPlayer_iOS/html/index.html)及[金山云播放SDK接口](http://ksvc.github.io/KSYMediaPlayer_iOS/html/index.html)
 
 ## 7. 反馈与建议
-- 主页：[金山云](http://www.ksyun.com/)
+- 主页：[金山云](http://v.ksyun.com)
 - 邮箱：<zengfanping@kingsoft.com>
+- QQ讨论群：574179720
+- Issues: <https://github.com/ksvc/KVrPlayer_iOS/issues>
