@@ -4,6 +4,6 @@ platform :ios, '7.0'
 # use_frameworks!
 
 target 'KSYVRPlayerDemo' do
-pod 'KSYMediaPlayer_iOS', :git => 'https://git.oschina.net/ksvc/KSYMediaPlayer_iOS.git'
-pod 'KSYVRPlayer_iOS', :git => 'https://github.com/ksvc/KVrPlayer_iOS.git'
+pod 'KSYMediaPlayer_iOS', :git => 'https://github.com/ksvc/KSYMediaPlayer_iOS.git', :tag => 'v1.9.3’
+pod 'KSYVRPlayer_iOS', :path => '../'
 end
